@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Overpass+Mono");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+footer,
+header,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+body {
+  /*  */
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  height: 100vh;
+  min-height: 350px;
+  background-color: #222222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+header .header__container {
+  width: 70%;
+  margin: auto;
+}
+header .header__container h1 {
+  display: block;
+  font-weight: 700;
+  font-size: 3em;
+  color: #f4f7f5;
+}
+header .header__container h1 span.wrap {
+  display: block;
+  font-weight: 300;
+  font-size: 0.45em;
+  color: #a7a2a9;
+}
+header .header__container .header__welcomes {
+  opacity: 0.5;
+  color: #575a5e;
+  margin-top: 50px;
+  margin-bottom: -80px;
+  font-family: "Overpass Mono", monospace;
+  line-height: 0.7em;
+}
